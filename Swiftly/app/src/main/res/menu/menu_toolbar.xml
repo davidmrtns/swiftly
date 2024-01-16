@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inicio"
+        android:icon="@drawable/inicio_icone"
+        android:title="@string/botao_inicio"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/recarregar"
+        android:icon="@drawable/recar_icone"
+        android:title="@string/botao_recarregar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mais"
+        android:icon="@drawable/mais_icone"
+        android:title="Mais"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/acessarPagina"
+                android:icon="@drawable/acessar_icone"
+                android:title="@string/botao_acessar" />
+
+            <item
+                android:id="@+id/paginaSeguinte"
+                android:icon="@drawable/seguinte_icone"
+                android:title="@string/botao_proximo" />
+
+            <item
+                android:id="@+id/paginaAnterior"
+                android:icon="@drawable/antecessor_icone"
+                android:title="@string/botao_voltar" />
+
+            <item
+                android:id="@+id/limparHistorico"
+                android:icon="@drawable/limpar_icone"
+                android:title="@string/botao_limparHist" />
+
+            <item
+                android:id="@+id/modoVisual"
+                android:icon="@drawable/comp_icone"
+                android:title="@string/botao_modoComp" />
+
+        </menu>
+    </item>
+</menu>

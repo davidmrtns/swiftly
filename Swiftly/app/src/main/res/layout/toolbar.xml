@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/corPrimaria"
+    android:elevation="2dp"
+    app:contentInsetStart="10dp"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <ImageView
+        android:id="@+id/imgSite"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="8dp" />
+
+    <EditText
+        android:id="@+id/editTxtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/url_hint"
+        android:imeOptions="actionNext"
+        android:inputType="textUri"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/corUrl"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtNomeSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:visibility="visible" />
+
+</androidx.appcompat.widget.Toolbar>

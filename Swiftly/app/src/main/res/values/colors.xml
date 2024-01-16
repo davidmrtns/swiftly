@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corPrimaria">#3F67E3</color>
+    <color name="corPrimariaEscura">#2A4494</color>
+    <color name="corSelecao">#73B8D8</color>
+    <color name="corUrl">#80ffffff</color>
+    <color name="corFundo">#ffffff</color>
+    <color name="corBotao">#d6d8d7</color>
+</resources>

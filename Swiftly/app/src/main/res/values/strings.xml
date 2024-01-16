@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Swiftly</string>
+    <string name="url_hint">Digite uma URL:</string>
+    <string name="botao_recarregar">Recarregar</string>
+    <string name="botao_acessar">Acessar</string>
+    <string name="botao_proximo">Próximo</string>
+    <string name="botao_voltar">Voltar</string>
+    <string name="botao_inicio">Início</string>
+    <string name="botao_limparHist">Limpar histórico</string>
+    <string name="botao_modoComp">Modo computador</string>
+    <string name="botao_modoCelular">Modo celular</string>
+    <string name="urlGoogle">https://google.com</string>
+    <string name="urlInicio">https://</string>
+    <string name="avisoDownload">Seu arquivo está sendo baixado</string>
+    <string name="avisoImpossivelVoltar">Não é possível voltar mais</string>
+    <string name="avisoImpossivelAvancar">Não é possível avançar mais</string>
+    <string name="avisoDadosExcluidos">Todos os dados foram excluídos</string>
+    <string name="avisoModoAtivo">%1$s está ativo</string>
+    <string name="user_agent_modoComputador">Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36</string>
+</resources>

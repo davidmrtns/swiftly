@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corPrimaria">#224870</color>
+    <color name="corPrimariaEscura">#18324E</color>
+    <color name="corSelecao">#708EAE</color>
+    <color name="corFundo">#0f1522</color>
+    <color name="corBotao">#B9B9BC</color>
+</resources>
